@@ -13,14 +13,6 @@ public class SubmarinoTest {
     public SubmarinoTest() {
     }
 
-   // @Test
-    public void printCoordenadasTest()
-    {
-        Submarino submarino = new Submarino();
-        submarino.printCoordenadas();
-        Assert.assertTrue(true);
-    }
-    
     @Test
     public void executaComandos()
     {
